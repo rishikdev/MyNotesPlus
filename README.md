@@ -1,1 +1,1 @@
-This website is used to provide support for [My Notes](https://github.com/rishikdev/Xcode-Projects/tree/main/My%20Notes) application.
+This website is used to provide support for [My Notes Plus](https://github.com/rishikdev/Xcode-Projects/tree/main/MyNotesPlus) application.
