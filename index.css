@@ -29,6 +29,41 @@ body
     max-width: 20rem;
 }
 
+.screenshot-iPhone
+{
+    transition: transform .2s; /* Animation */
+    max-width: 20rem;
+    margin: 5%;
+}
+
+.screenshot-iPad
+{
+    transition: transform .2s; /* Animation */
+    /* max-width: 90%; */
+    margin: 5%;
+}
+
+.screenshot-Watch
+{
+    transition: transform .2s; /* Animation */
+    max-width: 15rem;
+    margin: 5%;
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.screenshot-iPhone:hover, .screenshot-iPad:hover,.screenshot-Watch:hover, 
+.screenshot-iPhone:active, .screenshot-iPad:active, .screenshot-Watch:active,
+.screenshot-iPhone:focus, .screenshot-iPad:focus, .screenshot-Watch:focus
+{
+    transform: scale(1.25); /* (125% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 .card
 {
     margin-top: 5%;

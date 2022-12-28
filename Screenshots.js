@@ -16,14 +16,14 @@ function populate_images()
     for(i = 0; i < data_light.length; i = i + 1)
     {
         image_element = image_element +
-                        "<div class=\"row\">" +
+                        "<div class=\"d-flex justify-content-center\">" +
                             "<div class=\"card-group d-flex justify-content-center\">";
                             
         
         for(j = 0; j < data_light[i].carousel_elements.length; j = j + 1)
         {
             image_element = image_element +
-                                "<img class=\"" + data_light[i].class + "\" src=\"" + data_light[i].carousel_elements[j].src + "?raw=true\" alt=\"" + data_light[i].carousel_elements[j].alt + "\" style=\"margin: 5%;\">";
+                                "<img class=\"center screenshot-" + data_light[i].class + "\" src=\"" + data_light[i].carousel_elements[j].src + "?raw=true\" alt=\"" + data_light[i].carousel_elements[j].alt + "\">";
         }
 
         if(i < data_dark.length)
@@ -31,7 +31,7 @@ function populate_images()
             for(j = 0; j < data_dark[i].carousel_elements.length; j = j + 1)
             {
                 image_element = image_element +
-                                    "<img class=\"" + data_dark[i].class + "\" src=\"" + data_dark[i].carousel_elements[j].src + "?raw=true\" alt=\"" + data_dark[i].carousel_elements[j].alt + "\" style=\"margin: 5%;\">";
+                                    "<img class=\"center screenshot-" + data_dark[i].class + "\" src=\"" + data_dark[i].carousel_elements[j].src + "?raw=true\" alt=\"" + data_dark[i].carousel_elements[j].alt + "\">";
             }
         }
 
