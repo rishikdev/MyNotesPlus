@@ -41,9 +41,9 @@ function populate_images()
             set_css_style();
 
             if(!is_mobile_device() && data_dark[i].device == "iPad")
-        {
+            {
             css_style = "style=\"max-width : 40%\"";
-        }
+            }
 
             for(j = 0; j < data_dark[i].carousel_elements.length; j = j + 1)
             {
