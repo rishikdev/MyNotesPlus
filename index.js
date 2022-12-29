@@ -1,4 +1,7 @@
 import data_light from './Data/data_light.js';
+import features from './Data/features.js';
+import download_links from './Data/download_links.js';
+import application_description from './Data/application_description.js';
 
 $(document).ready(function() 
 {
@@ -10,46 +13,6 @@ $(document).ready(function()
 
 let carousel_element = "";
 let application_description_element = "";
-
-const features = [
-    "Biometric authentication support (on eligible devices) which enhances security",
-    "Ability to pin notes",
-    "Coloured tags that help in organising notes more efficiently",
-    "Ability to switch between list view and card view",
-    "Ability to filter notes based on the tags",
-    "Ability to sort notes either by Date or by Title in ascending as well as descending order",
-    "Customisable widget support",
-    "Apple watch application with the ability to create, read, and delete notes",
-    "iCloud synchronisation across all your devices"
-]
-
-const download_links = {
-    qr_code : "https://tools-qr-production.s3.amazonaws.com/output/apple-toolbox/f5b88b04b724586e64d319f1c1c2460a/beab8d48586a6758336777bb359cb809.png",
-    app_store_badge_link : "https://apps.apple.com/us/app/my-notes-plus/id1636570752?itsct=apps_box_badge&amp;itscg=30200",
-    app_store_badge_image : "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1658880000&h=deff0bec25efefb7279e20e4d9d0bfe5"
-}
-
-const application_description = [
-    {
-        card_title : "What you get",
-        card_text : "After downloading this application you can expect total privacy of you data."
-    },
-
-    {
-        card_title : "Some features",
-        card_text : "list features",
-    },
-
-    {
-        card_title : "What you pay",
-        card_text : "This is the best part! You pay NOTHING! My Notes Plus is a completely free application, and yes, all the updates in the future are also going to be free. You will not be pestered by any annoying ads either as showing any ads might compromise your data.</p>"
-    },
-
-    {
-        card_title : "Where to find",
-        card_text : "list links"
-    }
-]
 
 function populate_carousel()
 {
